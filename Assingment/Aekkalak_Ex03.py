@@ -1,0 +1,9 @@
+base = int(input("Enter your base : "))
+div = int(input("Enter your div : "))
+i = 0
+while base >= div:
+    base = base - div
+    i += 1
+print("result = ", i)
+print("scrap = ", base)
+a = int(input())
